@@ -40,6 +40,7 @@ class ListWindowController{
       DisplayAllItemsButton
       DisplayCompeteButton
       DisplayIncompleteButton
+      DisplaySortedByDate()
       NewItemButton
      ListDeleteButton
      ListSaveButton

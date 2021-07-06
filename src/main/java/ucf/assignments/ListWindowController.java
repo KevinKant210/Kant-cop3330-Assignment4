@@ -123,4 +123,8 @@ public class ListWindowController {
         //we can call the static ListHandler method deleteList and pass in currList as the parameter
 
     }
+
+    public void SortByDateClicked(ActionEvent actionEvent) {
+        //call currList.sort method to sort the list by date
+    }
 }

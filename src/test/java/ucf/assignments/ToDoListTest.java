@@ -89,6 +89,22 @@ public class ToDoListTest {
         //AssertEquals(testObj.displayComplete.size, 50)
     }
 
+    @Test
+    public void ensure_date_sort_sorts_item_holder(){
+        //gui will call the sort method in ToDoList
+
+        //create test ToDoList testObj
+
+        //fill it with random Items
+
+        //ensure that items get inserted out of date order
+
+        //call the sort
+
+        //assertEquals(firstItem.date, expectedDate)
+
+    }
+
 
 
 

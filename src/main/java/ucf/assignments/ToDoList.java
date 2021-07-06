@@ -30,6 +30,13 @@ public class ToDoList {
         return false;
     }
 
+    public boolean sortList(){
+        //create a comparator for 2 date objects within item objects
+        //collectiojns.sort(itemHolder)
+
+        return true;
+    }
+
     public ArrayList<Item> displayAllItems(){
         //returns the ItemHolder Array list
         return new ArrayList<>();

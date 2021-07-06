@@ -6,26 +6,19 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="ucf.assignments.ListWindowController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ucf.assignments.ListWindowController">
    <Text fx:id="ListTitleText" layoutX="266.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title">
       <font>
-         <Font size="36.0"/>
+         <Font size="36.0" />
       </font>
    </Text>
-   <TextField fx:id="TitleChangeInputTextField" layoutX="117.0" layoutY="90.0"/>
-   <Button fx:id="ChangeTitleButton" layoutX="26.0" layoutY="90.0" mnemonicParsing="false"
-           onAction="#ChangeTitleButtonClicked" text="Change Title"/>
-   <Button fx:id="DisplayAllItemsButton" layoutX="26.0" layoutY="152.0" mnemonicParsing="false"
-           onAction="#DisplayAllItemsClicked" text="Display All Items"/>
-   <Button fx:id="DisplayCompeteButton" layoutX="26.0" layoutY="200.0" mnemonicParsing="false"
-           onAction="#DisplayCompleteItemsClicked" text="Display Complete Items"/>
-   <Button fx:id="DisplayIncompleteButton" layoutX="25.0" layoutY="248.0" mnemonicParsing="false"
-           onAction="#DisplayNon_CompleteItemsClicked" text="Display Non-Complete Items"/>
-   <Button fx:id="NewItemButton" layoutX="380.0" layoutY="152.0" mnemonicParsing="false"
-           onAction="#NewItemButtonClicked" text="New Item"/>
-   <Button fx:id="ListDeleteButton" layoutX="380.0" layoutY="200.0" mnemonicParsing="false"
-           onAction="#DeleteListClicked" text="Delete This List"/>
-   <Button fx:id="ListSaveButton" layoutX="376.0" layoutY="248.0" mnemonicParsing="false"
-           onAction="#SaveThisListButtonClicked" text="Save This List"/>
+   <TextField fx:id="TitleChangeInputTextField" layoutX="117.0" layoutY="90.0" />
+   <Button fx:id="ChangeTitleButton" layoutX="26.0" layoutY="90.0" mnemonicParsing="false" onAction="#ChangeTitleButtonClicked" text="Change Title" />
+   <Button fx:id="DisplayAllItemsButton" layoutX="26.0" layoutY="152.0" mnemonicParsing="false" onAction="#DisplayAllItemsClicked" text="Display All Items" />
+   <Button fx:id="DisplayCompeteButton" layoutX="26.0" layoutY="200.0" mnemonicParsing="false" onAction="#DisplayCompleteItemsClicked" text="Display Complete Items" />
+   <Button fx:id="DisplayIncompleteButton" layoutX="25.0" layoutY="248.0" mnemonicParsing="false" onAction="#DisplayNon_CompleteItemsClicked" text="Display Non-Complete Items" />
+   <Button fx:id="NewItemButton" layoutX="380.0" layoutY="152.0" mnemonicParsing="false" onAction="#NewItemButtonClicked" text="New Item" />
+   <Button fx:id="ListDeleteButton" layoutX="380.0" layoutY="200.0" mnemonicParsing="false" onAction="#DeleteListClicked" text="Delete This List" />
+   <Button fx:id="ListSaveButton" layoutX="376.0" layoutY="248.0" mnemonicParsing="false" onAction="#SaveThisListButtonClicked" text="Save This List" />
+   <Button fx:id="SortByDateButton" layoutX="274.0" layoutY="315.0" mnemonicParsing="false" onAction="#SortByDateClicked" text="Sort By Date" />
 </AnchorPane>
